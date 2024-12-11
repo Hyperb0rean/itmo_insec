@@ -1,0 +1,4 @@
+(executable
+ (public_name itmo_insec)
+ (name main)
+ (libraries itmo_insec))
