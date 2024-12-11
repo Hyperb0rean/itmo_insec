@@ -1,6 +1,5 @@
 open OUnit2
 
-(* Assuming you have the following functions in bigram_cipher.ml *)
 let encrypt = Itmo_insec.Bigram.encrypt
 let decrypt = Itmo_insec.Bigram.decrypt
 

@@ -1,4 +1,9 @@
 (executable
- (public_name itmo_insec)
- (name main)
+ (public_name lab1)
+ (name lab1)
+ (libraries itmo_insec))
+
+(executable
+ (public_name lab2)
+ (name lab2)
  (libraries itmo_insec))
