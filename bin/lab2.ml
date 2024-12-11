@@ -14,6 +14,9 @@ let read_file filename =
   content
 ;;
 
+let iv = Bytes.of_string "this_is_a_key!!!"  
+
+
 let main () =
   let mode = ref "encrypt" in
   let input_file = ref "input" in
@@ -33,7 +36,7 @@ let main () =
       Printf.eprintf "Error: Invalid mode. Use 'encrypt' or 'decrypt'.\n";
       exit 1
   in
-  write_file !output_file result
+  write_file !output_file (result iv)
 ;;
 
 let () = main ()
