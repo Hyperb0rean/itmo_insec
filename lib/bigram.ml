@@ -48,7 +48,7 @@ let decrypt_bigram (b1, b2) (square1, square2) =
   let pos2 = Array.findi (fun c -> c = b2) square1 in
   let row1, col1 = pos1 / 5, pos1 mod 5 in
   let row2, col2 = pos2 / 5, pos2 mod 5 in
-  square2.((row2 * 5) + col1), square1.((row1 * 5) + col2)
+  square1.((row1 * 5) + col2), square2.((row2 * 5) + col1)
 ;;
 
 let encrypt text square1 square2 =
