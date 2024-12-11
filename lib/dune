@@ -1,2 +1,3 @@
 (library
- (name itmo_insec))
+ (name itmo_insec)
+ (libraries batteries))
