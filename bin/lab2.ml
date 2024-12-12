@@ -13,7 +13,7 @@ let read_file filename =
   content
 ;;
 
-let iv = Bytes.of_string "this_is_a_key!!!"
+let iv = Bytes.of_string "DancingPickle420"
 
 let main () =
   let mode = ref "encrypt" in
