@@ -1,4 +1,3 @@
-
 let write_file filename content =
   let oc = open_out filename in
   output_bytes oc content;
@@ -14,8 +13,7 @@ let read_file filename =
   content
 ;;
 
-let iv = Bytes.of_string "this_is_a_key!!!"  
-
+let iv = Bytes.of_string "this_is_a_key!!!"
 
 let main () =
   let mode = ref "encrypt" in
