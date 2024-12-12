@@ -2,3 +2,10 @@
 _build
 input
 output
+lib64
+/lib/python3.10/*
+bin/pip*
+bin/python*
+bin/activate*
+*.ps1
+isympy*
