@@ -9,3 +9,7 @@ bin/python*
 bin/activate*
 *.ps1
 isympy*
+jupyter*
+pygmentize*
+debugpy*
+ipython*
